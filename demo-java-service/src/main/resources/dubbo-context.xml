@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:dubbo="http://code.alibabatech.com/schema/dubbo"
+       xsi:schemaLocation="
+	    http://www.springframework.org/schema/beans
+	    http://www.springframework.org/schema/beans/spring-beans-4.1.xsd
+	    http://code.alibabatech.com/schema/dubbo
+	    http://code.alibabatech.com/schema/dubbo/dubbo.xsd">
+
+    <!-- 当前应用信息配置 -->
+    <dubbo:application name="demo-dubbo" logger="slf4j"/>
+    <!-- 连接注册中心配置 -->
+    <dubbo:registry address="127.0.0.1:2181" client="curator" protocol="zookeeper" file="demo-dubbo.properties"/>
+    <!-- 暴露服务协议配置 -->
+    <dubbo:protocol port="7070"/>
+    <dubbo:consumer check="false" cluster="failover"/>
+    <dubbo:provider retries="0"/>
+
+    <dubbo:service interface="com.java.interfaces.DubboInterface" ref="dubboService"/>
+
+</beans>

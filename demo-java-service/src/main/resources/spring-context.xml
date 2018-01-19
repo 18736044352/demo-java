@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns="http://www.springframework.org/schema/beans"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xmlns:aop="http://www.springframework.org/schema/aop"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+           http://www.springframework.org/schema/beans/spring-beans-3.0.xsd
+           http://www.springframework.org/schema/context
+           http://www.springframework.org/schema/context/spring-context-2.5.xsd
+           http://www.springframework.org/schema/aop
+           http://www.springframework.org/schema/aop/spring-aop-3.1.xsd ">
+
+    <!--自动扫描-->
+    <context:annotation-config />
+    <context:component-scan base-package="com.java"/>
+    <!--基于注解的aop需要加上该配置,基于XML配置文件的Aop该配置可不写-->
+    <aop:aspectj-autoproxy/>
+
+    <!--redis pool配置-->
+    <bean id="poolConfig" class="redis.clients.jedis.JedisPoolConfig">
+        <property name="maxTotal" value="1024"/>
+        <property name="maxIdle" value="200"/>
+        <property name="maxWaitMillis" value="3000"/>
+        <property name="testOnBorrow" value="true"/>
+    </bean>
+    <bean id="jedisPool" class="redis.clients.jedis.JedisPool">
+        <constructor-arg name="poolConfig" ref="poolConfig" />
+        <constructor-arg name="host" value="127.0.0.1" />
+        <constructor-arg name="port" value="6371" />
+        <constructor-arg name="timeout" value="3000" />
+    </bean>
+
+    <!--Spring Aop配置-->
+    <bean id="aopXMLService" class="com.java.aop.AopXMLService"></bean>
+    <aop:config>
+        <aop:aspect id="aoptest" ref="aopXMLService">
+            <aop:pointcut id="businessService" expression="execution(* com.java.aop.AopXmlTargetMethod.*(..)) || @annotation(com.java.annotation.AopAnnotation)"/>
+            <aop:before pointcut-ref="businessService" method="doBefore"></aop:before>
+            <aop:around pointcut-ref="businessService" method="doAround"></aop:around>
+            <aop:after pointcut-ref="businessService" method="doAfter"></aop:after>
+            <aop:after-returning pointcut-ref="businessService" method="afterReturn"></aop:after-returning>
+        </aop:aspect>
+    </aop:config>
+
+</beans>
