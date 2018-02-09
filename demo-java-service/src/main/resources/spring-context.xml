@@ -3,18 +3,25 @@
        xmlns="http://www.springframework.org/schema/beans"
        xmlns:context="http://www.springframework.org/schema/context"
        xmlns:aop="http://www.springframework.org/schema/aop"
+       xmlns:util="http://www.springframework.org/schema/util"
        xsi:schemaLocation="http://www.springframework.org/schema/beans
            http://www.springframework.org/schema/beans/spring-beans-3.0.xsd
            http://www.springframework.org/schema/context
            http://www.springframework.org/schema/context/spring-context-2.5.xsd
            http://www.springframework.org/schema/aop
-           http://www.springframework.org/schema/aop/spring-aop-3.1.xsd ">
+           http://www.springframework.org/schema/aop/spring-aop-3.1.xsd
+           http://www.springframework.org/schema/util http://www.springframework.org/schema/util/spring-util.xsd
+           ">
 
     <!--自动扫描-->
     <context:annotation-config />
     <context:component-scan base-package="com.java"/>
     <!--基于注解的aop需要加上该配置,基于XML配置文件的Aop该配置可不写-->
     <aop:aspectj-autoproxy/>
+
+
+    <!--引用properties文件-->
+    <util:properties id="dbConfig" location="classpath:jdbc.properties"></util:properties>
 
     <!--redis pool配置-->
     <bean id="poolConfig" class="redis.clients.jedis.JedisPoolConfig">
@@ -30,6 +37,8 @@
         <constructor-arg name="timeout" value="3000" />
     </bean>
 
+
+
     <!--Spring Aop配置-->
     <bean id="aopXMLService" class="com.java.aop.AopXMLService"></bean>
     <aop:config>
@@ -41,5 +50,25 @@
             <aop:after-returning pointcut-ref="businessService" method="afterReturn"></aop:after-returning>
         </aop:aspect>
     </aop:config>
+
+    <!--数据源配置-->
+    <bean id="dataSource" class="org.apache.commons.dbcp.BasicDataSource"
+          lazy-init="default" autowire="default" destroy-method="close">
+        <property name="driverClassName" value="#{dbConfig['jdbc.driverClassName']}"></property>
+        <property name="url" value="#{dbConfig['jdbc.url']}"></property>
+        <property name="username" value="#{dbConfig['jdbc.username']}"></property>
+        <property name="password" value="#{dbConfig['jdbc.password']}"></property>
+        <property name="maxWait" value="#{dbConfig['jdbc.maxwait']}"></property>
+        <property name="maxActive" value="#{dbConfig['jdbc.maxActive']}"></property>
+        <property name="maxIdle" value="#{dbConfig['jdbc.maxIdle']}" />
+        <property name="validationQuery" value="#{dbConfig['jdbc.validationQuery']}"></property>
+    </bean>
+
+    <!-- mybatis 配置 -->
+    <bean id="sqlSessionFactory" class="org.mybatis.spring.SqlSessionFactoryBean">
+        <property name="dataSource" ref="dataSource" />
+        <property name="configLocation" value="classpath:mybatis-config.xml" />
+    </bean>
+
 
 </beans>
