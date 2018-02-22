@@ -26,7 +26,6 @@ public class GuavaUtil {
         multiset.add("大炮");
 
         Integer count  = multiset.count("火车");
-
         System.out.println(count);
     }
 }

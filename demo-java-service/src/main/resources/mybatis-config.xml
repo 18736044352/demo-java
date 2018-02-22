@@ -4,10 +4,10 @@
         "http://mybatis.org/dtd/mybatis-3-config.dtd">
 <configuration>
     <typeAliases>
-
+        <typeAlias type="com.java.dto.User" alias="user"></typeAlias>
     </typeAliases>
 
     <mappers>
-        <mapper resource=""/>
+        <mapper resource="mapper/user-mapper.xml"/>
     </mappers>
 </configuration>

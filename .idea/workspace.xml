@@ -2,20 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ac86b983-7ce3-4221-8186-bfc784fd526a" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo-java-service/src/main/java/com/java/guava/GuavaUtil.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo-java-service/src/main/java/com/java/mybatis/MybatisMain.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo-java-service/src/main/java/com/java/shansong/CityMain.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo-java-service/src/main/resources/mybatis-config.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo-java-service/src/test/java/com/java/MabatisTest.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_guava_16_0_1.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/demo-dubbo.properties" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/demo-dubbo.properties.lock" afterPath="$PROJECT_DIR$/demo-java-service/src/main/resources/jdbc.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo-java-core/src/main/java/com/java/dto/User.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo-java-service/src/main/java/com/java/repository/UserMapper.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo-java-service/src/main/resources/mapper/user-mapper.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo-java-service/src/test/java/com/java/MyBatisTest.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo-java-service/demo-java-service.iml" afterPath="$PROJECT_DIR$/demo-java-service/demo-java-service.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo-java-service/pom.xml" afterPath="$PROJECT_DIR$/demo-java-service/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo-java-service/src/main/java/com/java/guava/GuavaUtil.java" afterPath="$PROJECT_DIR$/demo-java-service/src/main/java/com/java/guava/GuavaUtil.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo-java-service/src/main/java/com/java/mybatis/MybatisMain.java" afterPath="$PROJECT_DIR$/demo-java-service/src/main/java/com/java/mybatis/MybatisMain.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo-java-service/src/main/resources/mybatis-config.xml" afterPath="$PROJECT_DIR$/demo-java-service/src/main/resources/mybatis-config.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo-java-service/src/main/resources/spring-context.xml" afterPath="$PROJECT_DIR$/demo-java-service/src/main/resources/spring-context.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
     </list>
     <ignored path="demo-java.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -40,197 +38,32 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="LearnerHandler.java" pinned="false" current-in-tab="true">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/apache/zookeeper/zookeeper/3.4.6/zookeeper-3.4.6-sources.jar!/org/apache/zookeeper/server/quorum/LearnerHandler.java">
+      <file leaf-file-name="ThreadPoolExecutor.java" pinned="false" current-in-tab="false">
+        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.7.0_79.jdk/Contents/Home/src.zip!/java/util/concurrent/ThreadPoolExecutor.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="178" column="58" selection-start-line="178" selection-start-column="58" selection-end-line="178" selection-end-column="58" />
+            <state relative-caret-position="14093">
+              <caret line="886" column="30" selection-start-line="886" selection-start-column="30" selection-end-line="886" selection-end-column="30" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="QuorumPeer.java" pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/apache/zookeeper/zookeeper/3.4.6/zookeeper-3.4.6-sources.jar!/org/apache/zookeeper/server/quorum/QuorumPeer.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1564">
-              <caret line="137" column="14" selection-start-line="137" selection-start-column="14" selection-end-line="137" selection-end-column="14" />
-              <folding>
-                <element signature="n#!!doc" expanded="false" />
-                <element signature="imports" expanded="false" />
-                <element signature="e#5339#5340#0" expanded="false" />
-                <element signature="e#5373#5374#0" expanded="false" />
-                <element signature="e#5939#5940#0" expanded="false" />
-                <element signature="e#5984#5985#0" expanded="false" />
-                <element signature="e#6250#6251#0" expanded="false" />
-                <element signature="e#6277#6278#0" expanded="false" />
-                <element signature="e#6554#6555#0" expanded="false" />
-                <element signature="e#6588#6589#0" expanded="false" />
-                <element signature="e#6649#6650#0" expanded="false" />
-                <element signature="e#6680#6681#0" expanded="false" />
-                <element signature="e#6886#6887#0" expanded="false" />
-                <element signature="e#6912#6913#0" expanded="false" />
-                <element signature="e#8724#8725#0" expanded="false" />
-                <element signature="e#8772#8773#0" expanded="false" />
-                <element signature="e#11848#11849#0" expanded="false" />
-                <element signature="e#11878#11879#0" expanded="false" />
-                <element signature="e#11931#11932#0" expanded="false" />
-                <element signature="e#11959#11960#0" expanded="false" />
-                <element signature="e#12085#12086#0" expanded="false" />
-                <element signature="e#12120#12121#0" expanded="false" />
-                <element signature="e#13970#13971#0" expanded="false" />
-                <element signature="e#14004#14005#0" expanded="false" />
-                <element signature="e#22330#22331#0" expanded="false" />
-                <element signature="e#22362#22363#0" expanded="false" />
-                <element signature="e#22430#22431#0" expanded="false" />
-                <element signature="e#22466#22467#0" expanded="false" />
-                <element signature="e#22538#22539#0" expanded="false" />
-                <element signature="e#22574#22575#0" expanded="false" />
-                <element signature="e#30172#30173#0" expanded="false" />
-                <element signature="e#30240#30241#0" expanded="false" />
-                <element signature="e#31598#31599#0" expanded="false" />
-                <element signature="e#31654#31655#0" expanded="false" />
-                <element signature="e#32972#32973#0" expanded="false" />
-                <element signature="e#32999#33000#0" expanded="false" />
-                <element signature="e#33092#33093#0" expanded="false" />
-                <element signature="e#33124#33125#0" expanded="false" />
-                <element signature="e#33223#33224#0" expanded="false" />
-                <element signature="e#33254#33255#0" expanded="false" />
-                <element signature="e#33834#33835#0" expanded="false" />
-                <element signature="e#33915#33916#0" expanded="false" />
-                <element signature="e#34204#34205#0" expanded="false" />
-                <element signature="e#34286#34287#0" expanded="false" />
-                <element signature="e#34611#34612#0" expanded="false" />
-                <element signature="e#34643#34644#0" expanded="false" />
-                <element signature="e#34950#34951#0" expanded="false" />
-                <element signature="e#34977#34978#0" expanded="false" />
-                <element signature="e#35199#35200#0" expanded="false" />
-                <element signature="e#35246#35247#0" expanded="false" />
-                <element signature="e#35355#35356#0" expanded="false" />
-                <element signature="e#35389#35390#0" expanded="false" />
-                <element signature="e#35471#35472#0" expanded="false" />
-                <element signature="e#35503#35504#0" expanded="false" />
-                <element signature="e#35591#35592#0" expanded="false" />
-                <element signature="e#35633#35634#0" expanded="false" />
-                <element signature="e#36305#36306#0" expanded="false" />
-                <element signature="e#36351#36352#0" expanded="false" />
-                <element signature="e#36433#36434#0" expanded="false" />
-                <element signature="e#36468#36469#0" expanded="false" />
-                <element signature="e#36567#36568#0" expanded="false" />
-                <element signature="e#36615#36616#0" expanded="false" />
-                <element signature="e#36663#36664#0" expanded="false" />
-                <element signature="e#36706#36707#0" expanded="false" />
-                <element signature="e#36892#36893#0" expanded="false" />
-                <element signature="e#36926#36927#0" expanded="false" />
-                <element signature="e#36991#36992#0" expanded="false" />
-                <element signature="e#37037#37038#0" expanded="false" />
-                <element signature="e#37107#37108#0" expanded="false" />
-                <element signature="e#37153#37154#0" expanded="false" />
-                <element signature="e#37187#37188#0" expanded="false" />
-                <element signature="e#37236#37237#0" expanded="false" />
-                <element signature="e#37364#37365#0" expanded="false" />
-                <element signature="e#37405#37406#0" expanded="false" />
-                <element signature="e#37454#37455#0" expanded="false" />
-                <element signature="e#37492#37493#0" expanded="false" />
-                <element signature="e#37622#37623#0" expanded="false" />
-                <element signature="e#37658#37659#0" expanded="false" />
-                <element signature="e#37705#37706#0" expanded="false" />
-                <element signature="e#37743#37744#0" expanded="false" />
-                <element signature="e#37777#37778#0" expanded="false" />
-                <element signature="e#37807#37808#0" expanded="false" />
-                <element signature="e#37917#37918#0" expanded="false" />
-                <element signature="e#37943#37944#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BinaryInputArchive.java" pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/apache/zookeeper/zookeeper/3.4.6/zookeeper-3.4.6-sources.jar!/org/apache/jute/BinaryInputArchive.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="28" column="13" selection-start-line="28" selection-start-column="13" selection-end-line="28" selection-end-column="13" />
-              <folding>
-                <element signature="n#!!doc" expanded="false" />
-                <element signature="imports" expanded="false" />
-                <element signature="e#1315#1316#0" expanded="false" />
-                <element signature="e#1359#1360#0" expanded="false" />
-                <element signature="e#1391#1392#0" expanded="false" />
-                <element signature="e#1435#1436#0" expanded="false" />
-                <element signature="e#1464#1465#0" expanded="false" />
-                <element signature="e#1496#1497#0" expanded="false" />
-                <element signature="e#1604#1605#0" expanded="false" />
-                <element signature="e#1632#1633#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Leader.java" pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/apache/zookeeper/zookeeper/3.4.6/zookeeper-3.4.6-sources.jar!/org/apache/zookeeper/server/quorum/Leader.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="54" column="13" selection-start-line="54" selection-start-column="13" selection-end-line="54" selection-end-column="13" />
-              <folding>
-                <element signature="n#!!doc" expanded="false" />
-                <element signature="imports" expanded="false" />
-                <element signature="e#2523#2524#0" expanded="false" />
-                <element signature="e#2613#2614#0" expanded="false" />
-                <element signature="e#4561#4562#0" expanded="false" />
-                <element signature="e#4603#4604#0" expanded="false" />
-                <element signature="e#10624#10625#0" expanded="false" />
-                <element signature="e#10659#10660#0" expanded="false" />
-                <element signature="e#24010#24011#0" expanded="false" />
-                <element signature="e#24073#24074#0" expanded="false" />
-                <element signature="e#24229#24230#0" expanded="false" />
-                <element signature="e#24267#24268#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AopXmlTargetMethod.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/demo-java-service/src/main/java/com/java/aop/AopXmlTargetMethod.java">
+      <file leaf-file-name="GuavaUtil.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/demo-java-service/src/main/java/com/java/guava/GuavaUtil.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="136">
-              <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+              <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AopXMLService.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/demo-java-service/src/main/java/com/java/aop/AopXMLService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AopTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/demo-java-service/src/test/java/com/java/AopTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="16" selection-end-column="68" />
-              <folding>
-                <element signature="imports" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MabatisTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/demo-java-service/src/test/java/com/java/MabatisTest.java">
+      <file leaf-file-name="mybatis-config.xml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/demo-java-service/src/main/resources/mybatis-config.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="204">
-              <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-              <folding>
-                <element signature="e#452#453#0" expanded="true" />
-              </folding>
+              <caret line="12" column="5" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -238,18 +71,18 @@
       <file leaf-file-name="spring-context.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/demo-java-service/src/main/resources/spring-context.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1122">
-              <caret line="66" column="19" selection-start-line="66" selection-start-column="19" selection-end-line="66" selection-end-column="19" />
+            <state relative-caret-position="357">
+              <caret line="69" column="74" selection-start-line="69" selection-start-column="74" selection-end-line="69" selection-end-column="74" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/demo-java-service/pom.xml">
+      <file leaf-file-name="ConsistentHashingWithVirtualNode.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/demo-java-service/src/main/java/com/java/redis/ConsistentHashingWithVirtualNode.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3060">
-              <caret line="180" column="18" selection-start-line="180" selection-start-column="18" selection-end-line="180" selection-end-column="18" />
+            <state relative-caret-position="408">
+              <caret line="28" column="54" selection-start-line="28" selection-start-column="41" selection-end-line="28" selection-end-column="54" />
               <folding />
             </state>
           </provider>
@@ -281,14 +114,18 @@
         <option value="$PROJECT_DIR$/demo-java-service/src/test/java/com/java/UrlTest.java" />
         <option value="$PROJECT_DIR$/demo-java-service/src/main/resources/dubbo-context.xml" />
         <option value="$PROJECT_DIR$/demo-java-service/src/main/java/com/java/guava/GuavaTest.java" />
-        <option value="$PROJECT_DIR$/demo-java-service/src/main/java/com/java/guava/GuavaUtil.java" />
         <option value="$PROJECT_DIR$/demo-java-service/src/main/java/com/java/shansong/CityMain.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/demo-java-service/src/main/resources/jdbc.properties" />
         <option value="$PROJECT_DIR$/demo-java-service/pom.xml" />
-        <option value="$PROJECT_DIR$/demo-java-service/src/main/resources/spring-context.xml" />
-        <option value="$PROJECT_DIR$/demo-java-service/src/main/java/com/java/mybatis/MybatisMain.java" />
         <option value="$PROJECT_DIR$/demo-java-service/src/test/java/com/java/MabatisTest.java" />
+        <option value="$PROJECT_DIR$/demo-java-core/src/main/java/com/java/dto/User.java" />
+        <option value="$PROJECT_DIR$/demo-java-service/src/main/java/com/java/repository/UserMapper.java" />
+        <option value="$PROJECT_DIR$/demo-java-service/src/main/resources/mapper/user-mapper.xml" />
+        <option value="$PROJECT_DIR$/demo-java-service/src/main/java/com/java/mybatis/MybatisMain.java" />
+        <option value="$PROJECT_DIR$/demo-java-service/src/test/java/com/java/MyBatisTest.java" />
+        <option value="$PROJECT_DIR$/demo-java-service/src/main/java/com/java/guava/GuavaUtil.java" />
+        <option value="$PROJECT_DIR$/demo-java-service/src/main/resources/spring-context.xml" />
         <option value="$PROJECT_DIR$/demo-java-service/src/main/resources/mybatis-config.xml" />
       </list>
     </option>
@@ -317,9 +154,57 @@
     <treeState />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="y" value="23" />
     <option name="width" value="1280" />
-    <option name="height" value="735" />
+    <option name="height" value="800" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+          <State>
+            <id>Ali-Check</id>
+          </State>
+          <State>
+            <id>Android &gt; Lint &gt; Correctness</id>
+          </State>
+          <State>
+            <id>Android &gt; Lint &gt; Security</id>
+          </State>
+          <State>
+            <id>Android Lint for Kotlin</id>
+          </State>
+          <State>
+            <id>CodeSpring CoreSpring</id>
+          </State>
+          <State>
+            <id>J2ME issuesJava</id>
+          </State>
+          <State>
+            <id>Java</id>
+          </State>
+          <State>
+            <id>Kotlin</id>
+          </State>
+          <State>
+            <id>Resource management issuesJava</id>
+          </State>
+          <State>
+            <id>Spring</id>
+          </State>
+          <State>
+            <id>Spring CoreSpring</id>
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>SpringJavaAutowiringInspection</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -346,6 +231,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -393,18 +279,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -474,7 +348,21 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="demo-java-service" />
+              <option name="myItemId" value="demo-java-core" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="demo-java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="demo-java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="demo-java-core" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -493,16 +381,11 @@
               <option name="myItemId" value="java" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mybatis" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="Scratches" />
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -513,8 +396,9 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="SearchEverywhereHistoryKey" value="LearnerHandler&#9;PSI&#9;JAVA://org.apache.zookeeper.server.quorum.LearnerHandler&#10;NIOS&#9;PSI&#9;JAVA://org.apache.zookeeper.server.NIOServerCnxn&#10;EventThre&#9;PSI&#9;JAVA://org.apache.zookeeper.ClientCnxn.EventThread&#10;ClientWa&#9;PSI&#9;JAVA://org.apache.zookeeper.ClientWatchManager&#10;SendT&#9;PSI&#9;JAVA://org.apache.zookeeper.ClientCnxn.SendThread&#10;SyncConn&#9;PSI&#9;JAVA://org.apache.zookeeper.Watcher.Event.KeeperState#SyncConnected&#10;EventTh&#9;PSI&#9;JAVA://org.apache.zookeeper.ClientCnxn.EventThread&#10;readConnect&#9;PSI&#9;JAVA://org.apache.zookeeper.ClientCnxnSocket#readConnectResult" />
+    <property name="last_opened_file_path" value="$USER_HOME$/idea-project/patterns/java-design-patterns" />
+    <property name="SearchEverywhereHistoryKey" value="ThreadEx&#9;PSI&#9;JAVA://java.util.concurrent.ThreadPoolExecutor&#10;LearnerHandler&#9;PSI&#9;JAVA://org.apache.zookeeper.server.quorum.LearnerHandler&#10;NIOS&#9;PSI&#9;JAVA://org.apache.zookeeper.server.NIOServerCnxn&#10;EventThre&#9;PSI&#9;JAVA://org.apache.zookeeper.ClientCnxn.EventThread&#10;ClientWa&#9;PSI&#9;JAVA://org.apache.zookeeper.ClientWatchManager&#10;SendT&#9;PSI&#9;JAVA://org.apache.zookeeper.ClientCnxn.SendThread&#10;SyncConn&#9;PSI&#9;JAVA://org.apache.zookeeper.Watcher.Event.KeeperState#SyncConnected&#10;EventTh&#9;PSI&#9;JAVA://org.apache.zookeeper.ClientCnxn.EventThread&#10;readConnect&#9;PSI&#9;JAVA://org.apache.zookeeper.ClientCnxnSocket#readConnectResult" />
+    <property name="FullScreen" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -525,47 +409,7 @@
       <recent name="$PROJECT_DIR$/demo-java-service/src/main/resources" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.MabatisTest.test">
-    <configuration default="false" name="DubboServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.java.dubbo.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="com.java.dubbo.DubboServer" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="demo-java-service" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="false" name="UrlTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.java.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="com.java.UrlTest" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="demo-java-service" />
-      <envs />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="JUnit.MyBatisTest">
     <configuration default="false" name="GuavaUtil" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -620,6 +464,58 @@
       <option name="MAIN_CLASS_NAME" value="com.java.MabatisTest" />
       <option name="METHOD_NAME" value="test" />
       <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="MyBatisTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.java.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="demo-java-service" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.java" />
+      <option name="MAIN_CLASS_NAME" value="com.java.MyBatisTest" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="MyBatisTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.java.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="demo-java-service" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.java" />
+      <option name="MAIN_CLASS_NAME" value="com.java.MyBatisTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
@@ -1069,19 +965,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Application.DubboServer" />
-      <item index="1" class="java.lang.String" itemvalue="Application.UrlTest" />
-      <item index="2" class="java.lang.String" itemvalue="Application.GuavaUtil" />
-      <item index="3" class="java.lang.String" itemvalue="Application.CityMain" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.MabatisTest.test" />
+      <item index="0" class="java.lang.String" itemvalue="Application.GuavaUtil" />
+      <item index="1" class="java.lang.String" itemvalue="Application.CityMain" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.MabatisTest.test" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.MyBatisTest.test" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.MyBatisTest" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.MabatisTest.test" />
-        <item index="1" class="java.lang.String" itemvalue="Application.CityMain" />
-        <item index="2" class="java.lang.String" itemvalue="Application.GuavaUtil" />
-        <item index="3" class="java.lang.String" itemvalue="Application.DubboServer" />
-        <item index="4" class="java.lang.String" itemvalue="Application.UrlTest" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.MyBatisTest" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.MyBatisTest.test" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.MabatisTest.test" />
+        <item index="3" class="java.lang.String" itemvalue="Application.CityMain" />
+        <item index="4" class="java.lang.String" itemvalue="Application.GuavaUtil" />
       </list>
     </recent_temporary>
   </component>
@@ -1122,6 +1018,11 @@
       <workItem from="1517833745532" duration="567000" />
       <workItem from="1517854717035" duration="77000" />
       <workItem from="1517883632198" duration="321000" />
+      <workItem from="1518179053875" duration="4003000" />
+      <workItem from="1518189471852" duration="645000" />
+      <workItem from="1518397835276" duration="192000" />
+      <workItem from="1519126913594" duration="1491000" />
+      <workItem from="1519291308996" duration="312000" />
     </task>
     <servers />
   </component>
@@ -1132,16 +1033,46 @@
     <history-entry file="MabatisTest_test - 2018.01.26 at 22h 31m 15s.xml">
       <configuration name="MabatisTest.test" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="MyBatisTest - 2018.02.09 at 20h 43m 56s.xml">
+      <configuration name="MyBatisTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MyBatisTest - 2018.02.09 at 20h 44m 35s.xml">
+      <configuration name="MyBatisTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MyBatisTest - 2018.02.09 at 20h 45m 47s.xml">
+      <configuration name="MyBatisTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MyBatisTest - 2018.02.09 at 20h 50m 45s.xml">
+      <configuration name="MyBatisTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MyBatisTest - 2018.02.09 at 20h 51m 40s.xml">
+      <configuration name="MyBatisTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MyBatisTest_test - 2018.02.09 at 20h 39m 02s.xml">
+      <configuration name="MyBatisTest.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MyBatisTest_test - 2018.02.09 at 20h 44m 53s.xml">
+      <configuration name="MyBatisTest.test" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="21375000" />
+    <option name="totallyTimeSpent" value="28018000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1280" height="735" extended-state="6" />
-    <editor active="false" />
+    <frame x="0" y="0" width="1280" height="800" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32876712" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="FindBugs-IDEA" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1150,24 +1081,24 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32739726" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32970452" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24959612" sideWeight="0.47744945" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24959612" sideWeight="0.47122863" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Tail" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24959612" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24959612" sideWeight="0.5225505" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39849624" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.35068494" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24959612" sideWeight="0.5287714" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32781956" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32732734" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3260274" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -1207,8 +1138,14 @@
           <properties />
           <option name="timeStamp" value="4" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/demo-java-service/src/test/java/com/java/MyBatisTest.java</url>
+          <line>22</line>
+          <properties />
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="5" />
+      <option name="time" value="7" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -1217,104 +1154,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/demo-java-service/src/main/java/com/java/annotation/NoLogin.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo-java-service/src/main/java/com/java/redis/JedisPooolUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo-java-service/src/main/java/com/java/mail/MailSender.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo-java-service/src/main/java/com/java/regex/Regex.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo-java-service/src/main/java/com/java/shansong/SqlMain.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo-java-service/src/main/java/com/java/aop/AopAnnotationService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo-java-service/src/test/java/com/java/HttpClinetTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo-java-service/src/test/java/com/java/FileReplcae.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo-java-service/src/test/java/com/java/QRCodeTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo-java-service/src/test/java/com/java/RedisTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo-java-service/src/test/java/com/java/DateTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo-java-service/src/test/java/com/java/CaptchaTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo-java-service/src/test/java/com/java/MainTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo-java-service/src/test/java/com/java/RandomTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/demo-java-service/src/test/java/com/java/RegexTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1365,13 +1204,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
           <caret line="14" column="10" selection-start-line="14" selection-start-column="10" selection-end-line="14" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo-java-service/src/main/java/com/java/guava/GuavaUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -1488,20 +1320,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/demo-java-service/src/main/resources/mybatis-config.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="28" selection-start-line="10" selection-start-column="28" selection-end-line="10" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo-java-service/src/main/java/com/java/mybatis/MybatisMain.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/demo-java-service/src/main/java/com/java/aop/AopService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
@@ -1513,7 +1331,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
           <caret line="178" column="58" selection-start-line="178" selection-start-column="58" selection-end-line="178" selection-end-column="58" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1521,92 +1338,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1564">
           <caret line="137" column="14" selection-start-line="137" selection-start-column="14" selection-end-line="137" selection-end-column="14" />
-          <folding>
-            <element signature="n#!!doc" expanded="false" />
-            <element signature="imports" expanded="false" />
-            <element signature="e#5339#5340#0" expanded="false" />
-            <element signature="e#5373#5374#0" expanded="false" />
-            <element signature="e#5939#5940#0" expanded="false" />
-            <element signature="e#5984#5985#0" expanded="false" />
-            <element signature="e#6250#6251#0" expanded="false" />
-            <element signature="e#6277#6278#0" expanded="false" />
-            <element signature="e#6554#6555#0" expanded="false" />
-            <element signature="e#6588#6589#0" expanded="false" />
-            <element signature="e#6649#6650#0" expanded="false" />
-            <element signature="e#6680#6681#0" expanded="false" />
-            <element signature="e#6886#6887#0" expanded="false" />
-            <element signature="e#6912#6913#0" expanded="false" />
-            <element signature="e#8724#8725#0" expanded="false" />
-            <element signature="e#8772#8773#0" expanded="false" />
-            <element signature="e#11848#11849#0" expanded="false" />
-            <element signature="e#11878#11879#0" expanded="false" />
-            <element signature="e#11931#11932#0" expanded="false" />
-            <element signature="e#11959#11960#0" expanded="false" />
-            <element signature="e#12085#12086#0" expanded="false" />
-            <element signature="e#12120#12121#0" expanded="false" />
-            <element signature="e#13970#13971#0" expanded="false" />
-            <element signature="e#14004#14005#0" expanded="false" />
-            <element signature="e#22330#22331#0" expanded="false" />
-            <element signature="e#22362#22363#0" expanded="false" />
-            <element signature="e#22430#22431#0" expanded="false" />
-            <element signature="e#22466#22467#0" expanded="false" />
-            <element signature="e#22538#22539#0" expanded="false" />
-            <element signature="e#22574#22575#0" expanded="false" />
-            <element signature="e#30172#30173#0" expanded="false" />
-            <element signature="e#30240#30241#0" expanded="false" />
-            <element signature="e#31598#31599#0" expanded="false" />
-            <element signature="e#31654#31655#0" expanded="false" />
-            <element signature="e#32972#32973#0" expanded="false" />
-            <element signature="e#32999#33000#0" expanded="false" />
-            <element signature="e#33092#33093#0" expanded="false" />
-            <element signature="e#33124#33125#0" expanded="false" />
-            <element signature="e#33223#33224#0" expanded="false" />
-            <element signature="e#33254#33255#0" expanded="false" />
-            <element signature="e#33834#33835#0" expanded="false" />
-            <element signature="e#33915#33916#0" expanded="false" />
-            <element signature="e#34204#34205#0" expanded="false" />
-            <element signature="e#34286#34287#0" expanded="false" />
-            <element signature="e#34611#34612#0" expanded="false" />
-            <element signature="e#34643#34644#0" expanded="false" />
-            <element signature="e#34950#34951#0" expanded="false" />
-            <element signature="e#34977#34978#0" expanded="false" />
-            <element signature="e#35199#35200#0" expanded="false" />
-            <element signature="e#35246#35247#0" expanded="false" />
-            <element signature="e#35355#35356#0" expanded="false" />
-            <element signature="e#35389#35390#0" expanded="false" />
-            <element signature="e#35471#35472#0" expanded="false" />
-            <element signature="e#35503#35504#0" expanded="false" />
-            <element signature="e#35591#35592#0" expanded="false" />
-            <element signature="e#35633#35634#0" expanded="false" />
-            <element signature="e#36305#36306#0" expanded="false" />
-            <element signature="e#36351#36352#0" expanded="false" />
-            <element signature="e#36433#36434#0" expanded="false" />
-            <element signature="e#36468#36469#0" expanded="false" />
-            <element signature="e#36567#36568#0" expanded="false" />
-            <element signature="e#36615#36616#0" expanded="false" />
-            <element signature="e#36663#36664#0" expanded="false" />
-            <element signature="e#36706#36707#0" expanded="false" />
-            <element signature="e#36892#36893#0" expanded="false" />
-            <element signature="e#36926#36927#0" expanded="false" />
-            <element signature="e#36991#36992#0" expanded="false" />
-            <element signature="e#37037#37038#0" expanded="false" />
-            <element signature="e#37107#37108#0" expanded="false" />
-            <element signature="e#37153#37154#0" expanded="false" />
-            <element signature="e#37187#37188#0" expanded="false" />
-            <element signature="e#37236#37237#0" expanded="false" />
-            <element signature="e#37364#37365#0" expanded="false" />
-            <element signature="e#37405#37406#0" expanded="false" />
-            <element signature="e#37454#37455#0" expanded="false" />
-            <element signature="e#37492#37493#0" expanded="false" />
-            <element signature="e#37622#37623#0" expanded="false" />
-            <element signature="e#37658#37659#0" expanded="false" />
-            <element signature="e#37705#37706#0" expanded="false" />
-            <element signature="e#37743#37744#0" expanded="false" />
-            <element signature="e#37777#37778#0" expanded="false" />
-            <element signature="e#37807#37808#0" expanded="false" />
-            <element signature="e#37917#37918#0" expanded="false" />
-            <element signature="e#37943#37944#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1614,67 +1345,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
           <caret line="28" column="13" selection-start-line="28" selection-start-column="13" selection-end-line="28" selection-end-column="13" />
-          <folding>
-            <element signature="n#!!doc" expanded="false" />
-            <element signature="imports" expanded="false" />
-            <element signature="e#1315#1316#0" expanded="false" />
-            <element signature="e#1359#1360#0" expanded="false" />
-            <element signature="e#1391#1392#0" expanded="false" />
-            <element signature="e#1435#1436#0" expanded="false" />
-            <element signature="e#1464#1465#0" expanded="false" />
-            <element signature="e#1496#1497#0" expanded="false" />
-            <element signature="e#1604#1605#0" expanded="false" />
-            <element signature="e#1632#1633#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/zookeeper/zookeeper/3.4.6/zookeeper-3.4.6-sources.jar!/org/apache/zookeeper/server/quorum/Leader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="54" column="13" selection-start-line="54" selection-start-column="13" selection-end-line="54" selection-end-column="13" />
-          <folding>
-            <element signature="n#!!doc" expanded="false" />
-            <element signature="imports" expanded="false" />
-            <element signature="e#2523#2524#0" expanded="false" />
-            <element signature="e#2613#2614#0" expanded="false" />
-            <element signature="e#4561#4562#0" expanded="false" />
-            <element signature="e#4603#4604#0" expanded="false" />
-            <element signature="e#10624#10625#0" expanded="false" />
-            <element signature="e#10659#10660#0" expanded="false" />
-            <element signature="e#24010#24011#0" expanded="false" />
-            <element signature="e#24073#24074#0" expanded="false" />
-            <element signature="e#24229#24230#0" expanded="false" />
-            <element signature="e#24267#24268#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo-java-service/src/main/java/com/java/aop/AopXmlTargetMethod.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo-java-service/src/main/java/com/java/aop/AopXMLService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo-java-service/src/test/java/com/java/AopTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="16" selection-end-column="68" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1683,16 +1353,29 @@
         <state relative-caret-position="204">
           <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
           <folding>
-            <element signature="e#452#453#0" expanded="true" />
+            <element signature="e#452#453#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/demo-java-service/src/main/resources/spring-context.xml">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/zookeeper/zookeeper/3.4.6/zookeeper-3.4.6-sources.jar!/org/apache/zookeeper/server/quorum/Leader.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1122">
-          <caret line="66" column="19" selection-start-line="66" selection-start-column="19" selection-end-line="66" selection-end-column="19" />
-          <folding />
+        <state relative-caret-position="153">
+          <caret line="54" column="13" selection-start-line="54" selection-start-column="13" selection-end-line="54" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo-java-service/src/main/java/com/java/aop/AopXmlTargetMethod.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo-java-service/src/main/java/com/java/aop/AopXMLService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -1700,6 +1383,149 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3060">
           <caret line="180" column="18" selection-start-line="180" selection-start-column="18" selection-end-line="180" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo-java-core/src/main/java/com/java/dto/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="385">
+          <caret line="26" column="18" selection-start-line="26" selection-start-column="18" selection-end-line="26" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo-java-service/src/main/resources/mapper/user-mapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="44" selection-start-line="5" selection-start-column="44" selection-end-line="5" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo-java-service/src/main/java/com/java/repository/UserMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="27" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo-java-service/src/main/java/com/java/mybatis/MybatisMain.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo-java-service/src/test/java/com/java/AopTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="16" selection-end-column="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo-java-service/src/test/java/com/java/MyBatisTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="15" column="26" selection-start-line="15" selection-start-column="26" selection-end-line="15" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/dubbo/5.0.0.0-SNAPSHOT/dubbo-5.0.0.0-20160126.122318-20-sources.jar!/com/alibaba/dubbo/common/threadpool/support/AbortPolicyWithReport.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="148">
+          <caret line="30" column="13" selection-start-line="30" selection-start-column="13" selection-end-line="30" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/dubbo/5.0.0.0-SNAPSHOT/dubbo-5.0.0.0-20160126.122318-20-sources.jar!/com/alibaba/dubbo/common/threadpool/ThreadPool.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="30" column="21" selection-start-line="30" selection-start-column="17" selection-end-line="30" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/dubbo/5.0.0.0-SNAPSHOT/dubbo-5.0.0.0-20160126.122318-20-sources.jar!/com/alibaba/dubbo/common/threadpool/support/cached/CachedThreadPool.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="35" column="13" selection-start-line="35" selection-start-column="13" selection-end-line="35" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/dubbo/5.0.0.0-SNAPSHOT/dubbo-5.0.0.0-20160126.122318-20-sources.jar!/com/alibaba/dubbo/common/URL.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-68">
+          <caret line="71" column="19" selection-start-line="71" selection-start-column="19" selection-end-line="71" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/dubbo/5.0.0.0-SNAPSHOT/dubbo-5.0.0.0-20160126.122318-20-sources.jar!/com/alibaba/dubbo/common/threadpool/support/fixed/FixedThreadPool.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="37" column="33" selection-start-line="37" selection-start-column="33" selection-end-line="37" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/dubbo/5.0.0.0-SNAPSHOT/dubbo-5.0.0.0-20160126.122318-20-sources.jar!/com/alibaba/dubbo/common/threadpool/support/limited/LimitedThreadPool.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="43" column="33" selection-start-line="43" selection-start-column="33" selection-end-line="43" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.7.0_79.jdk/Contents/Home/src.zip!/java/util/concurrent/ThreadPoolExecutor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="14093">
+          <caret line="886" column="30" selection-start-line="886" selection-start-column="30" selection-end-line="886" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo-java-service/src/main/java/com/java/redis/ConsistentHashingWithVirtualNode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="28" column="54" selection-start-line="28" selection-start-column="41" selection-end-line="28" selection-end-column="54" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo-java-service/src/main/java/com/java/guava/GuavaUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/mybatis/mybatis-spring/1.3.0/mybatis-spring-1.3.0.jar!/org/mybatis/spring/SqlSessionFactoryBean.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="41" column="13" selection-start-line="41" selection-start-column="13" selection-end-line="41" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/mybatis/mybatis-spring/1.3.0/mybatis-spring-1.3.0-sources.jar!/org/mybatis/spring/SqlSessionFactoryBean.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-731">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo-java-service/src/main/resources/spring-context.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="69" column="74" selection-start-line="69" selection-start-column="74" selection-end-line="69" selection-end-column="74" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo-java-service/src/main/resources/mybatis-config.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="5" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
           <folding />
         </state>
       </provider>
