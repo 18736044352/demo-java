@@ -11,7 +11,7 @@ package com.java.mail;
 public class MailConfig {
     public static final String SMTP_HOST = "smtp.exmail.qq.com";
 
-    public static final String MAIL_FROM = "rd@ishansong.com";
+    public static final String MAIL_FROM = "chao054052@163.com.com";
 
     public static final String MAIL_FROM_PERSONAL = "Monitor";
     public static final String MAIL_TO = "chao054052@163.com.com";
