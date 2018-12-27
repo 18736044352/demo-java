@@ -14,14 +14,14 @@ public class MailConfig {
     public static final String MAIL_FROM = "rd@ishansong.com";
 
     public static final String MAIL_FROM_PERSONAL = "Monitor";
-    public static final String MAIL_TO = "bing.xu@ishansong.com";
+    public static final String MAIL_TO = "chao054052@163.com.com";
     public static final String MAIL_CC_TO = "";
     public static final String MAIL_BCC_TO = "";
     public static final String NEED_AUTH = "true";
 
     public static final String MIME_TYPE = "text/html;charset=utf-8";
     //
-    public static final String MAIL_ACCOUNT = "rd@ishansong.com";
+    public static final String MAIL_ACCOUNT = "chao054052@163.com.com";
 //    public static final String MAIL_PASSWORD = "Love@2016";
     public static final String MAIL_PASSWORD = "\\p6s-;N3v{<CL7mTJs9";
 

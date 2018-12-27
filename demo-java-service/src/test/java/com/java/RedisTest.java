@@ -28,15 +28,33 @@ public class RedisTest {
     @Test
     public void consistentHashingWithoutVirtualNode(){
         ConsistentHashingWithoutVirtualNode hashing = new ConsistentHashingWithoutVirtualNode();
-
         Random random = new Random(System.currentTimeMillis());
-        for(int i=0;i<10000;i++){
+        int a =0;
+        int b =0;
+        int c =0;
+        int d =0;
+        for(int i=0;i<1000000;i++){
             String key = random.nextLong()+"";
-            String server =  hashing.getServer(key.hashCode()+"");
-            System.out.println(server);
-        }
+            key = key.hashCode()+"";
+            String server =  hashing.getServer(key);
 
+            String host = server.split("#")[0];
+            if("127.0.0.1:6374".equals(host)){
+                a++;
+            }else if("127.0.0.1:6373".equals(host)){
+                b++;
+            }else if("127.0.0.1:6372".equals(host)){
+                c++;
+            }else if("127.0.0.1:6371".equals(host)){
+                d++;
+            }
+        }
+        System.out.println("127.0.0.1:6371 = "+d);
+        System.out.println("127.0.0.1:6372 = "+c);
+        System.out.println("127.0.0.1:6373 = "+b);
+        System.out.println("127.0.0.1:6374 = "+a);
     }
+
 
     @Test
     public void ConsistentHashingWithVirtualNode(){
@@ -46,7 +64,7 @@ public class RedisTest {
         int b =0;
         int c =0;
         int d =0;
-        for(int i=0;i<100000;i++){
+        for(int i=0;i<1000000;i++){
             String key = random.nextLong()+"";
             key = key.hashCode()+"";
             String server =  hashingWithVirtualNode.getServer(key);

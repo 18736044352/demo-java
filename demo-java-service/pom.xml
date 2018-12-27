@@ -212,6 +212,11 @@
             <version>1.2.51</version>
         </dependency>
 
+        <dependency>
+            <groupId>joda-time</groupId>
+            <artifactId>joda-time</artifactId>
+        </dependency>
+
         <!--破解图形验证码-->
         <!--<dependency>-->
         <!--<groupId>commons-httpclient</groupId>-->
