@@ -38,4 +38,7 @@ public class App
         byte[] imgByte = ImgUtile.getImageFromNetByUrl("http://www.ishansong.com/static/homePage/image/index/ssLogo.png");
         ImgUtile.writeImageToDisk(imgByte,"ssLogo");
     }
+
+
+
 }
