@@ -20,7 +20,7 @@
         <itext-version>2.0.8</itext-version>
         <pdfbox-version>2.0.6</pdfbox-version>
         <fontbox-version>2.0.6</fontbox-version>
-        <zookeeper-version>3.4.6</zookeeper-version>
+        <zookeeper-version>3.4.14</zookeeper-version>
         <jedis-version>2.9.0</jedis-version>
         <zxing-verison>3.2.0</zxing-verison>
         <spring-version>4.3.7.RELEASE</spring-version>
