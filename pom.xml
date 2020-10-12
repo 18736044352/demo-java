@@ -14,7 +14,7 @@
     </modules>
 
     <properties>
-        <junit-version>4.11</junit-version>
+        <junit-version>4.13.1</junit-version>
         <mail-version>1.4.5</mail-version>
         <renderer-version>1.0.5</renderer-version>
         <itext-version>2.0.8</itext-version>
