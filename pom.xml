@@ -18,7 +18,7 @@
         <mail-version>1.4.5</mail-version>
         <renderer-version>1.0.5</renderer-version>
         <itext-version>2.0.8</itext-version>
-        <pdfbox-version>2.0.6</pdfbox-version>
+        <pdfbox-version>2.0.24</pdfbox-version>
         <fontbox-version>2.0.6</fontbox-version>
         <zookeeper-version>3.4.6</zookeeper-version>
         <jedis-version>2.9.0</jedis-version>
